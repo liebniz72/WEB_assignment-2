@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Blog - Blog</title>
+	<link rel="stylesheet" href="style.css">
+
+<style>
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.blog-posts {
+	flex-basis: 70%;
+	padding: 50px;
+	background-color: #f8f8f8;
+}
+
+.post {
+	margin-top: 20px;
+}
+
+.post img {
+	width: 100%;
+	height: auto;
+}
+
+.post h3 {
+	margin: 10px 0;
+}
+
+.post p {
+	margin: 10px 0;
+	color: #666;
+}
+
+.read-more {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+
+
+}
+
+
+</style>
+
+
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="index.html"><img src="logo.png" alt="My Blog"></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="blog-posts">
+			<h2>Blog</h2>
+			<div class="post">
+				<a href="single-post.html"><img src="post1.jpg" alt="Blog Post 1"></a>
+				<h3><a href="single-post.html">Title of Blog Post 1</a></h3>
+				<p>Excerpt of Blog Post 1</p>
+				<a href="single-post.html" class="read-more">Read More</a>
+			</div>
+			<div class="post">
+				<a href="single-post.html"><img src="post2.jpg" alt="Blog Post 2"></a>
+				<h3><a href="single-post.html">Title of Blog Post 2</a></h3>
+				<p>Excerpt of Blog Post 2</p>
+				<a href="single-post.html" class="read-more">Read More</a>
+			</div>
+			<!-- Add more posts here -->
+		</section>
+		<aside class="sidebar">
+			<form class="search-form">
+				<input type="text" placeholder="Search...">
+				<button type="submit">Search</button>
+			</form>
+			<ul class="categories">
+				<li><a href="#">Category 1</a></li>
+				<li><a href="#">Category 2</a></li>
+				<li><a href="#">Category 3</a></li>
+				<!-- Add more categories here -->
+			</ul>
+		</aside>
+	</main>
+</body>
+</html>

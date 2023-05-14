@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Blog</title>
+	<link rel="stylesheet" href="style.css">
+ 
+    <style>
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo img {
+	height: 50px;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.featured-post {
+	padding: 50px;
+	background-color: #f8f8f8;
+}
+
+.post {
+	margin-top: 20px;
+}
+
+.post img {
+	width: 100%;
+	height: auto;
+}
+
+.post h3 {
+	margin: 10px 0;
+}
+
+.post p {
+	margin: 10px 0;
+	color: #666;
+}
+
+    </style>
+
+
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="index.html"><img src="logo.png" alt="My Blog"></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="featured-post">
+		<h2>Featured Post</h2>
+		<div class="post">
+			<a href="single-post.html"><img src="featured-post.jpg" alt="Featured Post"></a>
+			<h3><a href="single-post.html">Title of Featured Post</a></h3>
+			<p>Excerpt of Featured Post</p>
+		</div>
+	</section>
+</body>
+</html>
